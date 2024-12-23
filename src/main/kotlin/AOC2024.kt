@@ -3,6 +3,8 @@ internal fun Int.readDayInput() = readFile("2024/$this")
 
 class AOC2024 {
     fun execute() {
+//        day1P12024()
+//        day1P22024()
 //        day2P1()
 //        day2P22024()
 //        day3P12024()
