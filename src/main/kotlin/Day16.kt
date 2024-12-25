@@ -127,15 +127,16 @@ fun List<String>.bfs(start: Position, startDirection: Direction, end: Position):
             secondQueue.addAll(neighbours)
         }
     }
-    println(traversedBackwards.size)
-//    this.draw(traversedBackwards)
+    // Part 2 partly solved
     // Part 2: 543 Manually deducted the piece of shit part that does not work :(
+    println(traversedBackwards.size - 16 + 1)
+//    this.draw(traversedBackwards)
     this.draw(traversalBack)
     return traversal
 }
 
 
-fun day16P12024() {
+fun day162024() {
     val map = 16.readDayInput()
 
     var reindeer: Position? = null
