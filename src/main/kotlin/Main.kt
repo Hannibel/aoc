@@ -4,4 +4,8 @@ fun main() {
     AOC2024().execute()
 }
 
+private fun db() {
+    println("hello")
+}
+
 fun readFile(fileName: String) = File("src/main/resources/$fileName").readLines()
