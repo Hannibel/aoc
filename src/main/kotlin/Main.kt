@@ -4,6 +4,10 @@ fun main() {
     AOC2024().execute()
 }
 
+private fun logic() {
+    db()
+}
+
 private fun db() {
     println("hello")
 }
